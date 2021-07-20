@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.team.trip_expense_divider">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mainlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.team.trip_expense_divider.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.team.trip_expense_divider.TripSelection" />
+        <activity android:name="com.example.team.trip_expense_divider.GroupCreation" />
+        <activity android:name="com.example.team.trip_expense_divider.AddMembers" />
+        <activity android:name="com.example.team.trip_expense_divider.Home" />
+        <activity android:name="com.example.team.trip_expense_divider.Members" />
+        <activity android:name="com.example.team.trip_expense_divider.Add_Expenses" />
+        <activity android:name="com.example.team.trip_expense_divider.ExpensePieGraph" />
+        <activity android:name="com.example.team.trip_expense_divider.ModifyExpenses" />
+        <activity android:name="com.example.team.trip_expense_divider.Calculate" />
+        <activity android:name="com.example.team.trip_expense_divider.TripDetail"></activity>
+    </application>
+
+</manifest>
